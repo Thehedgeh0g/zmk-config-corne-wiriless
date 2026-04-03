@@ -139,10 +139,10 @@
 
         nav {
             bindings = <
-&bt BT_CLR  &kp F1  &kp F2   &kp F3     &kp F4       &kp C_VOLUME_UP      &msc SCRL_UP    &kp HOME        &kp UP            &kp END     &kp BACKSPACE  &kp DEL
-&bt BT_NXT  &kp F5  &kp F6   &kp F7     &kp F8       &kp C_MUTE           &msc SCRL_DOWN  &kp LEFT_ARROW  &kp DOWN          &kp RIGHT   &kp PAGE_UP    &kp PRINTSCREEN
-&bt BT_PRV  &kp F9  &kp F10  &kp F11    &kp F12      &kp C_VOLUME_DOWN    &kp F12         &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT  &kp PAGE_DOWN  &kp RALT
-                             &kp LCTRL  &lt 1 SPACE  &kp ENTER            &kp SPACE       &lt 2 SPACE     &kp BACKSPACE
+&bt BT_CLR      &kp F1  &kp F2   &kp F3     &kp F4       &kp C_VOLUME_UP      &msc SCRL_UP    &kp HOME        &kp UP            &kp END     &kp BACKSPACE  &kp DEL
+&bt BT_NXT      &kp F5  &kp F6   &kp F7     &kp F8       &kp C_MUTE           &msc SCRL_DOWN  &kp LEFT_ARROW  &kp DOWN          &kp RIGHT   &kp PAGE_UP    &kp PRINTSCREEN
+&kp LEFT_SHIFT  &kp F9  &kp F10  &kp F11    &kp F12      &kp C_VOLUME_DOWN    &kp F12         &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT  &kp PAGE_DOWN  &kp RALT
+                                 &kp LCTRL  &lt 1 SPACE  &kp ENTER            &kp SPACE       &lt 2 SPACE     &kp BACKSPACE
             >;
         };
     };
